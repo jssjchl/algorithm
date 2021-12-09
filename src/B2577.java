@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class b2577 {
+public class b2577 {
     public static void main(String[] args) {
 
         int str[] = new int[10];
