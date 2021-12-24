@@ -22,6 +22,6 @@ public class b1546_array {
         System.out.println(average/subject.length);
     }
 
-    //int형으로 했을 때랑 double형으로 했을 때랑 값이 범위 차이가 굉장히 커서
-    //답이 틀린 줄 알았음,,
+    //문제를 제대로 안읽고 int형으로 했을 때랑 값이 범위 차이가 굉장히 커서
+    // 답이 틀린 줄 알았음,,double형으로 풀어보니 바로 답이 나옴
 }
