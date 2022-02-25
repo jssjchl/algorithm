@@ -1,26 +1,18 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main {
-    public static void main(String[] args) {
-        int array[][] = new int[4][];
-        array[0] = new int[3];
-        array[1] = new int[2];
-        array[2] = new int[3];
-        array[3] = new int[2];
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String n = br.readLine();
 
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-                array[i][j] = (i + 1) * 10 + j;
-            }
+        String number[] = {"0","1","2","3","4","5","6","7","8","9"};
+        String word[] = {"zero","one","two","three","four","five","six","seven","eight","nine"};
+
+        for(int i =0; i <number.length; i++){
+            n =n.replace(word[i], number[i]);
         }
-        for(int i =0; i <array.length; i++){
-            for (int j =0; j <array[i].length; j++){
-                System.out.print(array[i][j] +" ");
-            }
-            System.out.println();
-        }
-
-
-
+        System.out.println(n);
     }
 }
