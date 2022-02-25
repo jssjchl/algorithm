@@ -4,9 +4,9 @@ public class factorial {
 
     public static int factorial(int n){
         if(n <=1){
-            return n;
+            return 1;
         }
-        return factorial(n-1) *n;
+        return factorial(n-1) * n;
     }
 
     public static void main(String[] args) {
