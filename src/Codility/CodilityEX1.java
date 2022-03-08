@@ -22,4 +22,5 @@ public class CodilityEX1 {
             return total;
         }
     }
+
 }
