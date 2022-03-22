@@ -19,5 +19,6 @@ public class b2292 {
             System.out.println(c);
         }
     }
-
+    //왜 이 해가 안되지,,
+    //다시 풀어보자 내일
 }
