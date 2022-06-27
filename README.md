@@ -1,1 +1,1 @@
-# studying codingtest  
+codingtest  
