@@ -1,6 +1,5 @@
 package programmers;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class level2_H_Index {
