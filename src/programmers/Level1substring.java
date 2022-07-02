@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Arrays;
 
-public class level1_substring {
+public class Level1substring {
 
     public int[] solution(long n) {
         String s = String.valueOf(n);
@@ -18,7 +18,7 @@ public class level1_substring {
     }
 
     public static void main(String[] args) {
-        level1_substring a = new level1_substring();
+        Level1substring a = new Level1substring();
         System.out.println(a.solution(123));
     }
 }

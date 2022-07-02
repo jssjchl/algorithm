@@ -1,6 +1,6 @@
 package programmers;
 
-public class level2_binary {
+public class Level2binary {
     public int solution(int n) {
         int nBi = Integer.bitCount(n); // biCount == 2진수를 구할 때 1의 갯수를 구해준다.
         for (int i = 1 + n; ; i++) {
@@ -11,7 +11,7 @@ public class level2_binary {
     }
 
     public static void main(String[] args) {
-        level2_binary a = new level2_binary();
+        Level2binary a = new Level2binary();
         System.out.println(a.solution(12));
     }
 }

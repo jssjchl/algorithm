@@ -1,6 +1,6 @@
 package programmers;
 
-public class level1_divisor {
+public class Level1divisor {
     public int solution(int n) {
         int answer = 0;
         for (int i = 1; i <= n; i++) {
@@ -12,7 +12,7 @@ public class level1_divisor {
     }
 
     public static void main(String[] args) {
-        level1_divisor a = new level1_divisor();
+        Level1divisor a = new Level1divisor();
 
         System.out.println(a.solution(12));
     }

@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Arrays;
 
-public class level2_H_Index {
+public class Level2H_Index {
     public int solution(int[] citations) {
         int answer = 0;
         Arrays.sort(citations);
@@ -18,7 +18,7 @@ public class level2_H_Index {
 
 
     public static void main(String[] args) {
-        level2_H_Index a = new level2_H_Index();
+        Level2H_Index a = new Level2H_Index();
         int[] arr = {1, 2, 3};
         System.out.println(a.solution(arr));
     }

@@ -1,6 +1,6 @@
 package programmers;
 
-public class level2_carpet {
+public class Level2Carpet {
     public int[] solution(int brown, int yellow) {
         int sum = brown + yellow; //내가 생각해낸 것 
         int[] answer = new int[2];
@@ -24,7 +24,7 @@ public class level2_carpet {
     }
     //다른 방식으로 다시 풀어보자
     public static void main(String[] args) {
-        level2_carpet a = new level2_carpet();
+        Level2Carpet a = new Level2Carpet();
         System.out.println(a.solution(10, 2));
     }
 }

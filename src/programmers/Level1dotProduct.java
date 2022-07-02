@@ -1,6 +1,6 @@
 package programmers;
 
-public class level1_dotProduct {
+public class Level1dotProduct {
 
     public int solution(int[] a, int[] b) {
         int answer = 0;
@@ -11,7 +11,7 @@ public class level1_dotProduct {
     }
 
     public static void main(String[] args) {
-        level1_dotProduct a = new level1_dotProduct();
+        Level1dotProduct a = new Level1dotProduct();
         int z[] = {-1, 0, 1};
         int x[] = {1, 0 ,-1};
         System.out.println(a.solution(z, x));
