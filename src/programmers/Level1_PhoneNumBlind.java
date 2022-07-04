@@ -23,4 +23,5 @@ public class Level1_PhoneNumBlind {
         Level1_PhoneNumBlind a = new Level1_PhoneNumBlind();
         System.out.println(a.solution("01033334444"));
     }
+    //07.05
 }

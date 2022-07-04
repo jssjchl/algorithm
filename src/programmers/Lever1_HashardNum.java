@@ -25,4 +25,5 @@ public class Lever1_HashardNum {
         Lever1_HashardNum a = new Lever1_HashardNum();
         System.out.println(a.solution2(12));
     }
+    // 07.05
 }

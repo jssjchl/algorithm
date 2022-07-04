@@ -13,4 +13,5 @@ public class Level1_XIntervalN {
         Level1_XIntervalN a = new Level1_XIntervalN();
         System.out.println(a.solution(2, 5));
     }
+    //07.04
 }
