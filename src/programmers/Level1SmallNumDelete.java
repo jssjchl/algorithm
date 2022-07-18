@@ -7,7 +7,7 @@ public class Level1SmallNumDelete {
     public int[] solution(int[] arr) {
         int[] answer = new int[arr.length - 1];
         Arrays.sort(arr);
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             if (arr[0] != arr[i]) {
                 list.add(arr[i]);
