@@ -3,7 +3,7 @@ package programmers;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Level1_IntegerDesc {
+public class Level1IntegerDesc {
     public long solution(long n) {
         String[] arr = String.valueOf(n).split("");
         Integer arr2[] = new Integer[arr.length];
@@ -19,7 +19,7 @@ public class Level1_IntegerDesc {
     }
 
     public static void main(String[] args) {
-        Level1_IntegerDesc a = new Level1_IntegerDesc();
+        Level1IntegerDesc a = new Level1IntegerDesc();
 
         System.out.println(a.solution(118372));
     }

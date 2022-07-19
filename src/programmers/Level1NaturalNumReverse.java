@@ -1,6 +1,6 @@
 package programmers;
 
-public class Level1_NaturalNumReverse {
+public class Level1NaturalNumReverse {
 
     public int[] solution(long n) {
         String s = String.valueOf(n);
@@ -17,7 +17,7 @@ public class Level1_NaturalNumReverse {
     }
 
     public static void main(String[] args) {
-        Level1_NaturalNumReverse a = new Level1_NaturalNumReverse();
+        Level1NaturalNumReverse a = new Level1NaturalNumReverse();
         System.out.println(a.solution(12345));
     }
 
