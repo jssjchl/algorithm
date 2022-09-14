@@ -14,6 +14,12 @@ public class Level1jungsu {
             }
         }
         return answer;
+
+//        if (Math.pow((int)Math.sqrt(n), 2) == n) { //제곱근으로 풀 수 있다..
+//            return (long) Math.pow(Math.sqrt(n) + 1, 2);
+//        }
+//
+//        return -1;
     }
 
     public static void main(String[] args) {
