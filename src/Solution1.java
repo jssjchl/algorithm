@@ -28,18 +28,12 @@ public class Solution1 {
                 result.add(list.get(i));
             }
         }
-        String regex = "(.*)\\[(.*)\\]";
         for (int i = 0; i < result.size(); i++) {
-            System.out.println(result.get(i));
-            System.out.println(String.valueOf(i + 1));
-            if(input.matches(regex)){
                 input = input.replace(  result.get(i), String.valueOf(i + 1));
-            }
         }
         System.out.println(input);
 
         for (int i = 0; i < result.size(); i++) {
-            System.out.println();
             System.out.println(String.format("[%d] %s", i + 1, result.get(i)));
         }
     }
